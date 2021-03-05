@@ -15,10 +15,10 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="centroid_initialization" type="xstring" value="RANDOM_INITIALIZATION"/>
+<entry key="centroid_initialization" type="xstring" value="FIRST_ROWS"/>
 <config key="centroid_seeds_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMN_long_seed"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
 </config>
 <entry key="centroid_seeds" type="xlong" value="0"/>
 <entry key="centroid_seeds_BOOL" type="xboolean" value="true"/>
@@ -97,6 +97,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="50c8f37b-4dbc-4733-999d-0b9c3a6c35a8"/>
+<entry key="file_store_id" type="xstring" value="73312b30-7a7c-4ef2-86b1-6b72359d469e"/>
 </config>
 </config>

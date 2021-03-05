@@ -15,7 +15,7 @@
 <config key="file_system_chooser__Internals">
 <entry key="has_fs_port" type="xboolean" value="false"/>
 <entry key="overwritten_by_variable" type="xboolean" value="false"/>
-<entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
+<entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
 <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
 <entry key="mountpoint" type="xstring" value="knime-temp-space"/>
 <entry key="custom_url_timeout" type="xint" value="1000"/>
@@ -23,8 +23,9 @@
 </config>
 <config key="path">
 <entry key="location_present" type="xboolean" value="true"/>
-<entry key="file_system_type" type="xstring" value="LOCAL"/>
-<entry key="path" type="xstring" value="C:\Users\33699\Documents\FI4\s8\ML\data\HTRU_2.csv"/>
+<entry key="file_system_type" type="xstring" value="RELATIVE"/>
+<entry key="file_system_specifier" type="xstring" value="knime.workflow.data"/>
+<entry key="path" type="xstring" value="HTRU_2.csv"/>
 </config>
 <config key="filter_mode_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -63,7 +64,7 @@
 <entry key="autodetect_buffer_size" type="xint" value="1048576"/>
 </config>
 <config key="table_spec_config_Internals">
-<entry key="root_path_Internals" type="xstring" value="C:\Users\33699\Documents\FI4\s8\ML\data\HTRU_2.csv"/>
+<entry key="root_path_Internals" type="xstring" value="HTRU_2.csv"/>
 <config key="datatable_spec_Internals">
 <entry key="spec_name" type="xstring" value="default"/>
 <entry key="number_columns" type="xint" value="9"/>
@@ -178,7 +179,7 @@
 </config>
 <config key="file_paths_Internals">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="C:\Users\33699\Documents\FI4\s8\ML\data\HTRU_2.csv"/>
+<entry key="0" type="xstring" value="HTRU_2.csv"/>
 </config>
 <config key="individual_specs_Internals">
 <config key="individual_spec_0">
@@ -383,6 +384,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="81e95da0-d1ab-4ec2-b5a2-352066e1bb12"/>
+<entry key="file_store_id" type="xstring" value="60e8fdea-571f-4326-ba9a-e11531bcf721"/>
 </config>
 </config>
